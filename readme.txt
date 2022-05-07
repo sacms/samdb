@@ -1,17 +1,5 @@
        ♥ Welcome to SAMDB API ♥
 
-     <----- Author Info Start ----->
-
-Author :- Shakib Ahmed
-
-URI :- https://facebook.com/expertskb
-
-E-mail :- shakibwap@yahoo.com
-
-Telegram :- https://t.me/expertskb
-
-     <----- Author Info End ----->
-
 
 ------------- SAMDB INFO ----------------
 
