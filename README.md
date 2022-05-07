@@ -28,7 +28,7 @@ You can use our api service for free without waste time and extra money...!
 -----
 --
 -
-SAMDB API - SHAKIB
+SAMDB API - SAM INC,
 -
 --
 -----
