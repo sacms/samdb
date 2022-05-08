@@ -60,8 +60,7 @@ How to remove api key input box
 
 Open samdb.php file check 27 lines.
 
-$url = 'https://samdb.shakib.cyou/json.php?i=['api_key'];
-
+$url = 'https://samdb.shakib.cyou/json.php?i=" .$tt."&o='.$GET['api_key']';
 
 remove '.$_GET['api_key'] then use your api key
 
