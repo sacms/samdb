@@ -1,0 +1,101 @@
+       ♥ Welcome to SAMDB API ♥
+
+
+
+------------- SAMDB INFO ----------------
+
+Email us :- samdb@app.shakib.cyou
+
+Website :- https://app.shakib.cyou/imdb/
+
+
+----------------- END -------------------
+
+
+We have given you this code. You can take more files from more items +  download link + Json if you want.
+
+
+
+
+
+First purcashe api key free [no limit]
+
+
+
+You can use our api service for free without waste time and extra money...!
+
+
+
+
+
+---------------------------
+----------------------
+---------------
+----------
+-----
+--
+-
+SAMDB API - SAM INC,
+-
+--
+-----
+-----------
+----------------
+------------------------
+-----------------------------
+
+
+
+Let's go
+
+======================
+
+#Logic
+
+★★★★★
+
+How to remove api key input box
+
+=>=>=>=>=>=>=>=>
+
+Open samdb.php file check 27 lines.
+
+$url = 'https://api.shakib.cyou/imdb/json.php?i='.$tt.'&o='.$_GET['api_key'];
+
+
+remove '.$_GET['api_key'] then use your api key
+
+
+example:
+
+$url = 'https://api.shakib.cyou/imdb/json.php?i=" .$tt."&o=samxxxxxxxx';
+
+Than remove
+
+if (empty($_GET['api_key'])) {
+echo '
+<div class="mmm">SAMDB API</div><div class="form">
+
+<div class="mvinfo"><form action="" method="get" enctype="multipart/form-data"><div class="mvlist">Api key:<br/> <input type="text" name="api_key" value=""/></div><br><div class="mvlistt"><center>Note: If you have not api key.  please <a href="//app.shakib.cyou/imdb">register </a> now.<input type="submit" value="Submit"/></center></div></form></div>';
+} 
+
+Open samdb.php file check 46 - 51 lines.
+
+
+then remove
+
+if (!empty($_GET['api_key'] && empty($_POST['tt']))) {
+
+
+Open samdb.php file check 52 lines.
+
+
+and put new code
+
+
+if (empty($_POST['tt'])) {
+
+Put samdb.php file check 52 lines.
+
+Done removed api key input box
+
