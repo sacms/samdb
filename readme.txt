@@ -6,7 +6,7 @@
 
 Email us :- samdb@app.shakib.cyou
 
-Website :- https://samdb.shakib.cyou/imdb/
+Website :- https://samdb.shakib.cyou/
 
 
 ----------------- END -------------------
