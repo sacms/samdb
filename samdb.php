@@ -2,7 +2,7 @@
 
 <?php 
 
-
+ini_set('display_errors', 0);
 
 
 $tt = $_POST["tt"];
