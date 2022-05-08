@@ -17,7 +17,7 @@ $tt = str_replace('https:imdb.comtitle','',$tt);
 $tt = str_replace('https:www.imdb.comtitle','',$tt);
 
 
-$url = 'https://api.shakib.cyou/imdb/json.php?i=' .$tt.'&o='.$_GET['api_key'];
+$url = 'https://samdb.shakib.cyou/json.php?i=' .$tt.'&o='.$_GET['api_key'];
 
     $content = file_get_contents($url);
     
@@ -27,7 +27,7 @@ $url = 'https://api.shakib.cyou/imdb/json.php?i=' .$tt.'&o='.$_GET['api_key'];
 echo '
 <div class="mmm">SAMDB API</div><div class="form">
 
-<div class="mvinfo"><form action="" method="get" enctype="multipart/form-data"><div class="mvlist">Api key:<br/> <input type="text" name="api_key" value=""/></div><br><div class="mvlistt"><center>Note: If you have not api key.  please <a href="//app.shakib.cyou/imdb">register </a> now.<input type="submit" value="Submit"/></center></div></form></div>';
+<div class="mvinfo"><form action="" method="get" enctype="multipart/form-data"><div class="mvlist">Api key:<br/> <input type="text" name="api_key" value=""/></div><br><div class="mvlistt"><center>Note: If you have not api key.  please <a href="//samdb.shakib.cyou">register </a> now.<input type="submit" value="Submit"/></center></div></form></div>';
 } 
 if (!empty($_GET['api_key'] && empty($_POST['tt']))) {
 echo '
