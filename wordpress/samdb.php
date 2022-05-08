@@ -24,7 +24,7 @@ $tt = str_replace('https:imdb.comtitle','',$tt);
 $tt = str_replace('https:www.imdb.comtitle','',$tt);
 
 
-$url = "https://api.shakib.cyou/imdb/json.php?i=" .$tt."&o=".$_GET['api_key'];
+$url = "https://api.shakib.cyou/imdb/json.php?i='.$tt.'&o='.$_GET['api_key'];
 
 $options = array(
 	        CURLOPT_RETURNTRANSFER => true,     // return web page
