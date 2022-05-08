@@ -6,7 +6,7 @@
 
 Email us :- samdb@app.shakib.cyou
 
-Website :- https://app.shakib.cyou/imdb/
+Website :- https://samdb.shakib.cyou/imdb/
 
 
 ----------------- END -------------------
@@ -35,7 +35,7 @@ You can use our api service for free without waste time and extra money...!
 -----
 --
 -
-SAMDB API - SAM INC,
+SAMDB API - SHAKIB.CYOU
 -
 --
 -----
@@ -60,7 +60,7 @@ How to remove api key input box
 
 Open samdb.php file check 27 lines.
 
-$url = 'https://api.shakib.cyou/imdb/json.php?i='.$tt.'&o='.$_GET['api_key'];
+$url = 'https://samdb.shakib.cyou/json.php?i=['api_key'];
 
 
 remove '.$_GET['api_key'] then use your api key
@@ -68,7 +68,7 @@ remove '.$_GET['api_key'] then use your api key
 
 example:
 
-$url = 'https://api.shakib.cyou/imdb/json.php?i=" .$tt."&o=samxxxxxxxx';
+$url = 'https://samdb.shakib.cyou/json.php?i=" .$tt."&o=samxxxxxxxx';
 
 Than remove
 
@@ -76,7 +76,7 @@ if (empty($_GET['api_key'])) {
 echo '
 <div class="mmm">SAMDB API</div><div class="form">
 
-<div class="mvinfo"><form action="" method="get" enctype="multipart/form-data"><div class="mvlist">Api key:<br/> <input type="text" name="api_key" value=""/></div><br><div class="mvlistt"><center>Note: If you have not api key.  please <a href="//app.shakib.cyou/imdb">register </a> now.<input type="submit" value="Submit"/></center></div></form></div>';
+<div class="mvinfo"><form action="" method="get" enctype="multipart/form-data"><div class="mvlist">Api key:<br/> <input type="text" name="api_key" value=""/></div><br><div class="mvlistt"><center>Note: If you have not api key.  please <a href="//samdb.shakib.cyou">register </a> now.<input type="submit" value="Submit"/></center></div></form></div>';
 } 
 
 Open samdb.php file check 46 - 51 lines.
