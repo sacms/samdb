@@ -4,7 +4,7 @@
 
 ------------- SAMDB INFO ----------------
 
-Email us :- samdb@app.shakib.cyou
+Email us :- samdb@shakib.cyou
 
 Website :- https://samdb.shakib.cyou/
 
