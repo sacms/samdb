@@ -3,11 +3,10 @@
 
 ------------- SAMDB INFO ----------------
 
-Email us :- samdb@app.shakib.cyou
+Email us :- samdb@shakib.cyou
 
-Website :- https://app.shakib.cyou/imdb/
+Website :- https://samdb.shakib.cyou/
 
-website :- https://samdb.con.tc/
 
 
 ----------------- END -------------------
