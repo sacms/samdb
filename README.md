@@ -21,7 +21,7 @@ You can use our api service for free without waste time and extra money...!
 
 # Live Demo
 
-https://samdb.herokuapp.com
+https://expertskb.herokuapp.com/samdb.php
 
 
 ---------------------------
