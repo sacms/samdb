@@ -5,7 +5,7 @@
 
 Email us :- samdb@shakib.cyou
 
-Website :- https://samdb.shakib.cyou/
+Website :- https://samdb.eu.org/
 
 
 
