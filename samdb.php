@@ -27,7 +27,7 @@ $url = 'https://samdb.eu.org/?i=' .$tt.'&o='.$_GET['api_key'];
 echo '
 <div class="mmm">SAMDB API</div><div class="form">
 
-<div class="mvinfo"><form action="" method="get" enctype="multipart/form-data"><div class="mvlist">Api key:<br/> <input type="text" name="api_key" value=""/></div><br><div class="mvlistt"><center>Note: If you have not api key.  please <a href="//samdb.shakib.cyou">register </a> now.<input type="submit" value="Submit"/></center></div></form></div>';
+<div class="mvinfo"><form action="" method="get" enctype="multipart/form-data"><div class="mvlist">Api key:<br/> <input type="text" name="api_key" value=""/></div><br><div class="mvlistt"><center>Note: If you have not api key.  please <a href="//samdb.eu.org/">register </a> now.<input type="submit" value="Submit"/></center></div></form></div>';
 } 
 if (!empty($_GET['api_key'] && empty($_POST['tt']))) {
 echo '
