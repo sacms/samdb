@@ -60,14 +60,14 @@ How to remove api key input box
 
 Open samdb.php file check 27 lines.
 
-$url = 'https://samdb.eu.org/?i=" .$tt."&o='.$GET['api_key']';
+$url = 'https://samdb.eu.org/api/ip?id=" .$tt."&key='.$GET['api_key']';
 
 remove '.$_GET['api_key'] then use your api key
 
 
 example:
 
-$url = 'https://samdb.eu.org/?i=" .$tt."&o=samxxxxxxxx';
+$url = 'https://samdb.eu.org/api/ip/?id=" .$tt."&key=samxxxxxxxx';
 
 Than remove
 
