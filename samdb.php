@@ -32,7 +32,7 @@ $tt = str_replace('https:imdb.comtitle','',$tt);
 $tt = str_replace('https:www.imdb.comtitle','',$tt);
 
 
-$url = 'https://samdb.eu.org/?i=' .$tt.'&o='.$_GET['api_key'];
+$url = 'https://samdb.eu.org/api/ip/?id=' .$tt.'&key='.$_GET['api_key'];
 
     $content = sacms($url);
     
