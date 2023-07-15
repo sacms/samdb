@@ -1,9 +1,12 @@
 <?php 
 function sacms($ip, $accessToken) {
     $url = 'https://samdb.eu.org/api/ip?ip='.$ip;
+    $data = array(
+    );
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
     $authorization = 'Authorization: Bearer '.$accessToken;
     $headers = array(
         'Content-Type: application/json',
