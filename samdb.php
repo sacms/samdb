@@ -1,6 +1,6 @@
 <?php 
 function sacms($id, $accessToken) {
-    $url = 'https://samdb.eu.org/api/imdb?id='.id;
+    $url = 'https://samdb.eu.org/api/imdb?id='.$id;
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
