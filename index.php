@@ -1,6 +1,11 @@
 <?php
 
+/*
 
-include_once('samdb.php');
+Name : Shakib Ahmed (SAM)
+E-mail : shakibwap@yahoo.com
+
+
+*/
 
 ?>
