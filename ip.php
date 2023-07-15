@@ -15,6 +15,7 @@ function sacms($ip, $accessToken) {
     curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
     $response = curl_exec($ch);
     curl_close($ch);
+    return $response;
 }
 
 $accessToken = ''; // Enter your Bearer Token
