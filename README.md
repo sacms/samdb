@@ -13,7 +13,7 @@ Website :- https://samdb.eu.org/
 
 
 
-I can set up a highly capable RESTful API server that will enable you to check your IP, access IMDb movie data, and perform numerous tasks with Google. However, I cannot provide you with your device information.
+We can set up a highly capable RESTful API server that will enable you to check your IP, access IMDb movie data, and perform numerous tasks with Google. However, I cannot provide you with your device information.
 
 
 MORE INFO
