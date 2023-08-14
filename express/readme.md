@@ -1,3 +1,0 @@
-In this code, we create an Express.js server with a single route (/) that calls the sacms function with the specified IP address and sends the response back to the client. Make sure to replace the accessToken variable with your actual Bearer Token.
-
-To run the Express.js application, you need to have Node.js installed. Save the code in a file, for example server.js, and run node server.js in the terminal. The server will start listening on port 3000. You can access the API by visiting http://localhost:3000 in your browser. The response will be the result of the sacms function for the specified IP address, movie info & file info.
