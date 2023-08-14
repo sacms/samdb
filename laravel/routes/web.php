@@ -28,8 +28,8 @@ Route::post('/fetch-ip', function () {
     $movieId = request()->input('ip');
     $accessToken = request()->input('accessToken');
 
-    $movieController = new IpController();
-    $response = $movieController->getSacmsData($movieId, $accessToken);
+    $IpController = new IpController();
+    $response = $IpController->getSacmsData($movieId, $accessToken);
 
     return view('fetch-ip', ['response' => $response]);
 });
@@ -39,11 +39,11 @@ Route::get('/fetch-gd', function () {
 })->name('fetch-gd');
 
 Route::post('/fetch-gd', function () {
-    $movieId = request()->input('fileId');
+    $Id = request()->input('fileId');
     $accessToken = request()->input('accessToken');
 
-    $movieController = new GDfileController();
-    $response = $movieController->getSacmsData($movieId, $accessToken);
+    $GDfileController = new GDfileController();
+    $response = $GDfileController->getSacmsData($Id, $accessToken);
 
     return view('fetch-gd', ['response' => $response]);
 });
