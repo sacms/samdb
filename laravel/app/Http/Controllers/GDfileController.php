@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-class MovieController extends Controller
+class GDfileController extends Controller
 {
     public function getSacmsData($id, $accessToken)
     {
